@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0 auto;
+	background: url("../img/fundo.png") repeat-x;
+	font:12px "Lucida Grande", Lucida Sans Unicode;sans-serif;
+}
+li{
+	list-style: none;
+	
+
+}
+li a{
+	text-decoration: none;
+}
+h3{
+	/*margin-top:10px;*/
+}
+#container{
+	margin: 0 auto;
+	min-width:740px; 
+	max-width:1180px
+}
+
+/*Cabeçalho*/
+header{
+	height: 100px;
+	margin-bottom: 20px;
+	
+}
+#logo h2{
+	text-indent: -9999px;
+
+}
+#logo img{
+	/*float: left;*/
+}
+
+
+aside{
+	border-left: 1px dotted blue;
+	float: right;
+	width: 230px;
+	margin: 0 15px;
+	
+}
+/*CONTEUDO 2*/
+#conteudo{
+	display: flex;
+	
+}
+/*CONTEUDO 1*/
+#conteudo1{
+	width: 620px;
+}
+#conteudo1 h3{
+	padding-top: 10px;
+}
+
+.caixa{
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.caixa h2{
+	background: #6495ED;
+}
+
+#lista-coisas li{
+	padding: 25px 0;
+	border-bottom: 1px solid #ccc; 
+	/*height: 62px;*/
+}
+
+#lista-coisas li a img{
+	float: left;
+	margin: 5px;
+	width: 75px;
+	height: 50px;
+}
+
+#lista-coisas li a{
+	text-decoration: 1em;
+}
+
+#lista-coisas li a h3{
+	font-size: 1.4em;
+	padding: 0;
+	color: #3e7ab9;
+}
+#lista-coisas li a p{
+	font-size: 1.1em;
+	color: #000;
+}
+
+#lista-coisas li:hover{
+	background: #87CEEB;
+	cursor: pointer;
+}
+
+
+/*FIM DO CONTEUDO 1*/
+#conteudo2{
+	float: right;
+	width: 300px;
+	border-left: 1px dotted blue;
+}
+
+#conteudo2 h2{
+	margin-left: 10px;
+	font-size: 1.5em;
+	background: #6495ED;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.caixa2{
+	margin-left: 10px
+}
+.caixa2 h3{
+	padding: 10px 0;
+}
+
+#lista-cidades li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc; 
+	height: 110px;
+	}
+
+#lista-cidades li a img{
+	float: left;
+	margin: 5px;
+	}
+#lista-cidades li a{
+	text-decoration: 0.8em;
+}
+#lista-cidades li:hover{
+	background: #87CEEB;
+	cursor: pointer;
+}
+
+
+/*FIM DO CONTEUDO 2*/
+
+/*Barra Lateral*/
+#espaco{
+	background: #FFFFE0;
+}
+#departamentos{
+	
+	padding-left: 10px;
+}
+#departamentos h2{
+	font-size: 1.5em;
+	background: #6495ED;
+	text-align: center;
+	text-transform: uppercase;
+	}
+#departamentos ul a{
+	font-size: 1.1em;
+	padding:3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #87CEEB;
+	}
+#departamentos ul a:hover{
+ 	background: #A9A9A9;
+ 	color: #FFF;
+ 	padding-left: 20px; 
+ }
+
+}
+ #imagem img{
+ 	display: block;
+ 	margin: 15px auto;
+ }
+
+footer{
+	clear: both;
+	height: 150px;
+	margin-top: 20px;
+	border-top: 1px solid blue;
+}
+#rodape{
+	font-size: 1.3em;
+	text-align: center;
+	margin-top: 15px;
+}
